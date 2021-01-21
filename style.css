@@ -1,0 +1,35 @@
+img{
+    width: 400px;
+    height: 350px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+p{
+    font-family: 'Lobster', cursive;
+    color: rgb(146, 11, 135);
+}
+ul{
+    line-height: 30px;
+    font-family: 'Lobster', cursive;
+    color: rgb(6, 76, 182);
+    
+}
+body{
+    background-color: rgb(192, 189, 189);
+}
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+h3{
+    font-family: 'Potta One', cursive;
+    color: rgb(255, 255, 255);
+}
+.Form{
+    margin-left: 400px;
+    font-family: 'Potta One', cursive;
+    color: rgb(146, 11, 135);
+    
+
+}
+canvas{
+    width:1200px !important;
+    height:500px !important;
+  }
