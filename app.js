@@ -170,8 +170,7 @@ var chart = new Chart(ctx, {
     // Configuration options go here
     options: {}
 });
-resultsLocalStorage();
-getData();
+
         }
 //////////////////////////////////////////////////////////////////////////////////
         
@@ -183,17 +182,4 @@ resultsDiv.addEventListener('submit',viewButton);
 
     }
 }
-//local storage functions///////////////////////////////////////////////////////////////////////////////////////
-function resultsLocalStorage (){
-    var storedProduct = JSON.stringify(ProductImages.allImages);
-    localStorage.setItem('product',storedProduct);
-}
 
-function getData(){
-var productItems = localStorage.getItem('product');
-var parsedProductItems = JSON.parse(productItems);
-if (parsedProductItems != null){
-    ProductImages.allImages=parsedProductItems;
-}
-}
-getData();
